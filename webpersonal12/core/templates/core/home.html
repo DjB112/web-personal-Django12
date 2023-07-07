@@ -1,0 +1,15 @@
+{% extends 'core/base.html' %}
+{% block title %}Portada{% endblock title %}
+{% block background %}{% load static %}{% static 'core/img/home-bg.jpg' %}{% endblock background %}
+{% block header %}
+<h1>David Bustamante</h1>
+<span class="subheading">Ingeniero Industrial</span>
+{% endblock header %}
+{% block content %}
+<h2>Portada</h2>
+<p>Fecha actual: {{fecha_actual}}</p>
+<p>Esto es la Portada ............</p>
+{% endblock content %}
+
+
+
